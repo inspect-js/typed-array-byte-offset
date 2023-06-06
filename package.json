@@ -1,0 +1,30 @@
+{
+	"name": "typed-array-byte-offset",
+	"version": "0.0.0",
+	"description": "Robustly get the byte offset of a Typed Array.",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/typed-array-byte-offset.git"
+	},
+	"keywords": [
+		"typed",
+		"array",
+		"byte",
+		"offset",
+		"byteOffset"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/typed-array-byte-offset/issues"
+	},
+	"homepage": "https://github.com/inspect-js/typed-array-byte-offset#readme"
+}
