@@ -55,11 +55,11 @@
 	},
 	"homepage": "https://github.com/inspect-js/typed-array-byte-offset#readme",
 	"dependencies": {
-		"available-typed-arrays": "^1.0.5",
-		"call-bind": "^1.0.2",
+		"available-typed-arrays": "^1.0.6",
+		"call-bind": "^1.0.7",
 		"for-each": "^0.3.3",
 		"has-proto": "^1.0.1",
-		"is-typed-array": "^1.1.10"
+		"is-typed-array": "^1.1.13"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
