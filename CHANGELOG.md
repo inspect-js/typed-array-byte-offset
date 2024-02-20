@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/inspect-js/typed-array-byte-offset/compare/v1.0.1...v1.0.2) - 2024-02-20
+
+### Commits
+
+- add types [`9eecdd2`](https://github.com/inspect-js/typed-array-byte-offset/commit/9eecdd245b089610d6ad49ef63c9df2b58c3e8a6)
+- [actions] skip ls check on node &lt; 10; remove redundant finisher [`4fb4c91`](https://github.com/inspect-js/typed-array-byte-offset/commit/4fb4c912f5eb8034f4e3705b30f3f7dcc7080039)
+- [Deps] update `available-typed-arrays`, `has-proto` [`805cee2`](https://github.com/inspect-js/typed-array-byte-offset/commit/805cee207d73e12d526ff23d2c161f38283a1ed9)
+
 ## [v1.0.1](https://github.com/inspect-js/typed-array-byte-offset/compare/v1.0.0...v1.0.1) - 2024-02-17
 
 ### Commits
