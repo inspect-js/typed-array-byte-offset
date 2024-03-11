@@ -16,6 +16,7 @@
 		"pretest": "npm run lint",
 		"prelint": "evalmd README.md",
 		"lint": "eslint --ext=js,mjs .",
+		"postlint": "tsc -p . && attw -P",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"test": "npm run tests-only",
 		"posttest": "aud --production",
@@ -64,6 +65,7 @@
 		"is-typed-array": "^1.1.13"
 	},
 	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.15.1",
 		"@ljharb/eslint-config": "^21.1.0",
 		"@types/call-bind": "^1.0.5",
 		"@types/for-each": "^0.3.3",
@@ -87,7 +89,7 @@
 		"possible-typed-array-names": "^1.0.0",
 		"safe-publish-latest": "^2.0.0",
 		"tape": "^5.7.5",
-		"typescript": "^5.4.0-dev.20240219"
+		"typescript": "next"
 	},
 	"engines": {
 		"node": ">= 0.4"
