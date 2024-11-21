@@ -62,13 +62,15 @@
 		"for-each": "^0.3.3",
 		"gopd": "^1.0.1",
 		"has-proto": "^1.0.3",
-		"is-typed-array": "^1.1.13"
+		"is-typed-array": "^1.1.13",
+		"reflect.getprototypeof": "^1.0.6"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.17.0",
 		"@ljharb/eslint-config": "^21.1.1",
 		"@ljharb/tsconfig": "^0.2.0",
 		"@types/call-bind": "^1.0.5",
+		"@types/es-abstract": "^1.17.9",
 		"@types/for-each": "^0.3.3",
 		"@types/gopd": "^1.0.3",
 		"@types/is-callable": "^1.1.2",
@@ -107,7 +109,8 @@
 	},
 	"publishConfig": {
 		"ignore": [
-			".github/workflows"
+			".github/workflows",
+			"types"
 		]
 	}
 }
