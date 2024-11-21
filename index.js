@@ -26,7 +26,6 @@ if (gOPD) {
 			// @ts-expect-error TS can't guarantee the callback is invoked sync
 			var descriptor = gOPD(Proto, 'byteOffset');
 			if (!descriptor && hasProto) {
-				// @ts-expect-error hush, TS, every object has a dunder proto
 				var superProto = Proto.__proto__; // eslint-disable-line no-proto
 				// @ts-expect-error TS can't guarantee the callback is invoked sync
 				descriptor = gOPD(superProto, 'byteOffset');
