@@ -1,6 +1,6 @@
 {
 	"name": "typed-array-byte-offset",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Robustly get the byte offset of a Typed Array",
 	"main": "index.js",
 	"exports": {
