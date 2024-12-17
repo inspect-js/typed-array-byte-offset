@@ -62,7 +62,7 @@
 		"for-each": "^0.3.3",
 		"gopd": "^1.2.0",
 		"has-proto": "^1.2.0",
-		"is-typed-array": "^1.1.13",
+		"is-typed-array": "^1.1.14",
 		"reflect.getprototypeof": "^1.0.8"
 	},
 	"devDependencies": {
