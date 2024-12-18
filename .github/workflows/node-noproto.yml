@@ -1,0 +1,29 @@
+name: 'Tests: node --disable-proto=throw'
+
+on: [pull_request, push]
+
+jobs:
+  throw:
+    uses: ljharb/actions/.github/workflows/node.yml@main
+    with:
+      range: '>= 12.17'
+      type: minors
+      skip-ls-check: true
+      after_install: "npm link && npm link dunder-proto"
+      command: "NODE_OPTIONS='--disable-proto=throw' npx tape 'tests/**/*.js'"
+
+  delete:
+    uses: ljharb/actions/.github/workflows/node.yml@main
+    with:
+      range: '>= 12.17'
+      type: minors
+      skip-ls-check: true
+      after_install: "npm link && npm link dunder-proto"
+      command: "NODE_OPTIONS='--disable-proto=delete' npx tape 'tests/**/*.js'"
+
+  node:
+    name: 'node --disable-proto'
+    needs: [throw, delete]
+    runs-on: ubuntu-latest
+    steps:
+      - run: true
