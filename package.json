@@ -62,8 +62,8 @@
 		"for-each": "^0.3.3",
 		"gopd": "^1.2.0",
 		"has-proto": "^1.2.0",
-		"is-typed-array": "^1.1.14",
-		"reflect.getprototypeof": "^1.0.8"
+		"is-typed-array": "^1.1.15",
+		"reflect.getprototypeof": "^1.0.9"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.17.1",
